@@ -1,0 +1,30 @@
+iframe {
+    margin: 15px;
+}
+
+div {
+    display: inline-block;
+}
+
+.wrapper {
+    width: 98%;
+    border: 1px solid lightslategray;
+    padding: 10px;
+    border-radius: 20px;
+    justify-content: space-evenly;
+}
+
+.contact {
+    float: left;
+}
+
+.copyhright {
+    width:300px;
+    display:inline-block;
+}
+
+
+.medias {
+    float: right;
+    padding: 10px;
+}
