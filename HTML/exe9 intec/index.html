@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filter Machine</title>
+    <style>
+        header,
+        nav,
+        footer {
+            text-align: center;
+        }
+
+        body {
+            background-color:  lightgrey;
+        }
+        #content {
+            width: 49%;
+            border: 1px dotted rgb(185, 185, 185);
+            padding: 10px;
+            float: left;
+
+        }
+
+        aside {
+            width: 49%;
+            border: 1px dotted rgb(185, 185, 185);
+            float: right;
+            padding: 4px;
+        }
+
+      
+        label{
+            color: #911111;
+        }
+
+        a:visited{
+            color:purple;
+        }
+
+        img.cat1 {
+            filter: grayscale();
+            padding-top: 5px;
+        }
+
+        li {
+            margin-bottom: 15px;
+            text-align: justify;
+        }
+
+        a {
+            font-size:x-large;
+        }
+
+        .myButton2 {
+            margin: 0 0 15px;
+        }
+
+        .myButton2:hover {
+        font-weight: bold;
+        }
+
+        .robot {
+        margin-bottom: 15px;
+        }
+
+        button:hover {
+        font-weight: bold;
+        }
+
+        .arrow {
+            margin-top: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <img src="../img/headerfoto.jpg"
+            width="100%" />
+        <h1>Welcome to the Grayscale Machine</h1>
+    </header>
+    <hr>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+    </nav>
+    <hr>
+    <section id="content">
+        <header>
+            <h1>STEP 1: Upload your pic</h1>
+            <Button class="myButton1">Select file</Button><br><br>
+            <input type="Button" class="myButton2" value="Upload" />
+        </header>
+        
+        
+        <header>
+            <h1>STEP 2: Apply filter</h1>
+            <img class="cat" src="../img/cat.jpg" alt="cat" width="350px"><br>
+            <button>Gray 1</button>
+            <button>Gray 2</button>
+            <button>Gray 3</button>
+            <button>Gray 4</button>
+            <button>Gray 5</button>
+            <br>
+            <header>
+                <img class="arrow" src="../img/arrowdown.png" width="100px" alt="arrow">
+            </header>
+            
+
+            <img class="cat1" src="../img/cat.jpg" alt="cat" width="350px"><br>
+            <button>Download</button>
+            <button>Delete</button>
+
+
+        </header>
+
+    </section>
+    <aside>
+        <h1>Did you know ...?</h1>
+        <ul>
+            <li>More than 2,263 photos are uploaded to Facebook every second, it represents 2,716,000 photos every 20 minutes and more than 71.425 billion per year.</li>
+            <li>The early days of photography only allowed black and white photos. So, to add color, the photos were hand painted.</li>
+            <li>Oscar Gustave Rejlander used his cat, more precisely his pupils, in order to know the degree of illumination of his studio and to adjust its exposure time.</li>
+            <li>425 cameras: This is the number of film cameras owned by Dilish Pareck. Started in 1977, he has the largest collection of film cameras in the world.</li>
+            <li>1,200 billion, the number of photos taken in 2017. Among them, 1,000 billion were taken with a smartphone.</li>
+        </ul>
+
+    </aside>
+    <aside>
+        <h1>STEP 3: Let us know</h1>
+        <h4>I found this webtool...</h4>
+        <ul>
+            <input type="radio" name="useful">Useful</input><br>
+            <input type="radio" name="useful">Uncomplete</input><br>
+            <input type="radio" name="useful">Defect</input><br>
+            <input type="radio" name="useful">Of no interest</input>
+        </ul>
+        <textarea name="textzone" id="textzone" cols="40" rows="8" placeholder="Insert your comments here..."></textarea><br>
+
+            <input type="checkbox" name="user1" value=""/>
+            <label class="robot">I'm not a Robot</label> <br>
+            <input type="submit" class="myButton2" value="SEND"/>
+    </aside>
+    
+    <div style="clear: both;"></div> 
+    <hr>
+    <footer>
+        &copy; Copyright 2021
+    </footer>
+</body>
+
+</html>
