@@ -1,0 +1,71 @@
+
+@font-face {
+    font-family:'acme';
+    src: url("../polices/Acme-Regular-webfont.woff")
+}
+
+body {
+    width: 100%;
+}
+.main {
+    width: 80%;
+    font-family: "acme";
+}
+
+.container2, .container3 {
+    width: 40%;
+    margin: 0 auto;
+}
+
+.container3 {
+    background-color: cornsilk;
+    border-style: solid;
+    border-image: url(../img/wallSavane.jpg) 15 15 round;
+    border-width: 40px;
+}
+
+h1, h3, p, a {
+    text-align: center;
+    font-family: "acme";
+}
+
+p {
+    text-align: justify;
+    padding: 15px;
+}
+
+img {
+    display:block;
+    margin: auto;
+    padding-bottom: 1em;
+}
+
+li {
+    list-style-type: none;
+}
+
+.topnav ul {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.topnav ul li {
+    display: inline-flex;
+    font-size: 25px;
+    margin: 15px;
+}
+
+.topnav a:hover {
+    color:green;
+}
+
+.topnav a:visited {
+    color:rgb(180, 34, 180);
+}
+
+
+
+
+
+
+
