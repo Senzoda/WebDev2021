@@ -6,6 +6,7 @@
 
 body {
     width: 100%;
+    background-color: rgb(146, 146, 73);
 }
 .main {
     width: 80%;
@@ -60,7 +61,7 @@ li {
 }
 
 .topnav a:visited {
-    color:rgb(180, 34, 180);
+    color:rgb(134, 64, 134);
 }
 
 
