@@ -1,0 +1,95 @@
+
+body {
+    margin:0;
+    padding: 0;
+}
+
+header {
+    width: 100%;
+    background-color: black;
+    color: black;
+}
+#mobile_container {
+    display: flex;
+    width: 1170px;
+    margin: auto;
+}
+.portrait {
+    width: 25%;
+    background-color: lightgray;
+    display: flex;
+}
+.player {
+    display: flex;
+    align-items: center;
+}
+.stats {
+    width: 100%;
+    background-color: lightskyblue;
+    display: flex;
+}
+
+.skills {
+    display: flex;
+    align-items: center;
+}
+
+span {
+    padding: 10px;
+}
+
+img {
+    border-radius: 50px;
+}
+
+
+/*************************************************************************************
+                                    Tablette
+**************************************************************************************/
+@media screen and (max-width:1200px) and (min-width:768px)   {
+
+    #mobile_container {
+        width: 750px;
+    }
+    .portrait {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    .player {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+
+/*************************************************************************************
+                                    Iphone
+**************************************************************************************/
+
+@media screen and (max-width:767px) {
+    #mobile_container {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .portrait {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .player {
+        display: flex;
+        flex-direction: column;
+    }
+    .stats {
+        display: flex;
+        justify-content: center;
+    }
+
+}
+

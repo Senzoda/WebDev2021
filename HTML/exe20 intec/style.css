@@ -1,0 +1,40 @@
+
+.item {
+    background-color: rgb(209, 205, 205);
+    padding: 1rem;
+    border: 1px solid black;
+    border-radius: 15px;
+    width: 100px;
+    margin: 10px;
+    box-shadow: 6px 7px 1px rgb(170, 205, 228);
+}
+
+#numericPad {
+    display: grid;
+    width: 700px;
+    height: auto;
+    margin: auto;
+    background-color: black;
+    border-radius: 15px;
+
+}
+
+.expand1 {
+    grid-column-start:4;
+    grid-row-start:2;
+    grid-row-end:4;
+}
+
+.expand2 {
+    grid-column-start:4;
+    grid-row-start:4;
+    grid-row-end:6;
+}
+
+.expand3 {
+    /*grid-row-start:5;
+    grid-column-start:1;
+    grid-column-end:2;*/
+    grid-column:span 2;
+    width: 289px;
+}
