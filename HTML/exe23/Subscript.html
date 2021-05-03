@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FootballPremium-RKA</title>
+    <link rel="stylesheet" href="style.css">
+
+    <!-- CSS de Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Custom Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Kaushan+Script" rel="stylesheet">
+</head>
+
+<body class="myPage3">
+    <!-- Nav -->
+    <nav id="main_nav" class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a href="index.html" class="navbar-brand">Football Premium</a>
+            
+            <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div id="navbarCollapse" class="collapse navbar-collapse">
+
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item mr-1">
+                        <a href="index.html" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item mr-1">
+                        <a href="index.html#info" class="nav-link">About</a>
+                    </li>
+                    <li class="nav-item mr-1">
+                        <a href="ranks.html" class="nav-link">Ranking</a>
+                    </li>
+                    <li class="nav-item mr-1">
+                        <a href="subscript.html" class="nav-link">Subscription</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+<!-- Header Jumbo -->
+    <header id="top1" class="text-center">
+        <div class="container">
+            <div class="row my-5">
+                <div class="jumbotron2 text-center mt-4 ">
+                    <h1 class="display-3 mt-5">Become the <span class="nextChamp">Next</span>  Champion</h1><br><br><br>
+                </div>
+            </div>
+            <hr>
+        </div>
+    </header>
+
+    <section id="subscript">
+        <div class="container">
+            <div class="row">
+                <div class="headlineSubs alert alert-info">
+                    <strong style="color:lightslategray; font-size:x-large;">Subscribe and Start your Journey !</strong>
+                </div>
+            </div>
+            <form>
+                <div class="form-row">
+                    <div class="col">
+                        <input type="text" class="form-control" placeholder="First name">
+                    </div>
+                    <div class="col">
+                        <input type="text" class="form-control" placeholder="Last name">
+                    </div>
+                </div>
+
+                <div class="form-row">
+                    <div class="form-group col-md-6 my-1">
+                      <input type="text" class="form-control" id="inputCity" placeholder="Country">
+                    </div>
+                    <div class="form-group col-md-3 my-1">
+                        <input type="text" class="form-control" id="inputZip" placeholder="City">
+                    </div>
+                    <div class="form-group col-md-3 my-1">
+                      <select id="inputState" class="form-control" placeholder="Gender">
+                        <option selected>Gender</option>
+                        <option>Male</option>
+                        <option>Female</option>
+                        <option>Other</option>
+                      </select>
+                    </div>
+                </div>
+
+                <fieldset class="form-group">
+                    <div class="row">
+                      <legend class="col-form-label col-lg-2 col-sm-3 pt-0 ">Age Gap</legend>
+                        <div class="col">
+                            <div class="form-check">
+                            <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
+                            <label class="form-check-label" for="gridRadios1">
+                                Below 18 yrs old
+                            </label>
+                            </div>
+                            <div class="form-check">
+                            <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+                            <label class="form-check-label" for="gridRadios2">
+                                Above 18 yrs old
+                            </label>
+                            </div>
+                        </div>
+                    </div>
+                </fieldset>
+
+                <div class="input-group mb-3">
+                    <input type="text" class="form-control" placeholder="Username">
+                    <div class="input-group-append">
+                        <span class="input-group-text">@football-premium.com</span>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <input type="file" id="myfile" class="">
+                    <label class="form-control" for="myfile">Insert your Picture</label>
+                </div>
+
+                <div class="form-group">
+                    <label for="message">About you</label>
+                    <textarea class="form-control" id="message" rows="3" placeholder="Tell the World who you are..."></textarea>
+                </div>
+                
+
+                <fieldset class="form-group row">
+                    <div class="row col-6">
+                      <legend class="col-form-label col-md-4 pt-0 col-sm-4">Payment Fee:</legend>
+                        <div class="col">
+                            <div class="form-check">
+                            <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
+                            <label class="form-check-label" for="gridRadios1">
+                                80 $ - 6 months
+                            </label>
+                            </div>
+                            <div class="form-check">
+                            <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+                            <label class="form-check-label" for="gridRadios2">
+                                150 $ - 12 months
+                            </label>
+                            </div>
+                            
+                            <div class="form-check">
+                            <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+                            <label class="form-check-label" for="gridRadios2">
+                                250 $ - 24 months
+                            </label>
+                            </div>
+                            
+                            <div class="form-check">
+                            <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+                            <label class="form-check-label" for="gridRadios2">
+                            5000 $ - Life
+                            </label>
+                            </div>    
+                        </div>
+                    </div>
+
+                    <div class="row col-6 ml-3">
+                        <legend class="col-form-label col-md-4 pt-0 col-sm-4 ">Payment Mode:</legend>
+                          <div class="col">
+                              <div class="form-check">
+                              <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
+                              <label class="form-check-label" for="gridRadios1">
+                                  Bitcoins
+                              </label>
+                              </div>
+                              <div class="form-check">
+                              <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+                              <label class="form-check-label" for="gridRadios2">
+                                  Visa / MasterCard
+                              </label>
+                              </div>
+                              
+                              <div class="form-check">
+                              <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+                              <label class="form-check-label" for="gridRadios2">
+                                  Paypal
+                              </label>
+                              </div>
+                              
+                              <div class="form-check">
+                              <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+                              <label class="form-check-label" for="gridRadios2">
+                              Telepathy
+                              </label>
+                              </div>    
+                          </div>
+                      </div>
+                </fieldset>
+
+                <div class="form-group">
+                    <label for="password">Password</label>
+                    <input class="form-control is-valid" type="text" id="password">
+                </div>
+                <div class="form-group">
+                    <label for="password2">Confirm Password</label>
+                    <input class="form-control is-invalid" type="text" id="password2">
+                    <div class="invalid-feedback">
+                        Password does not match
+                    </div>
+                </div>
+            </form>
+        </div>
+        <!-- Modal basic-->
+        <div class="container">
+                <button class="sumbmitSub btn btn-primary btn-block my-5" data-toggle="modal" data-target="#myModal">Submit</button>
+            <div class="modal" id="myModal">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title">Your subscription demand has been registered !</h5>
+                            <button class="close" data-dismiss="modal">&times;</button>
+                        </div>
+                        <div class="modal-body">
+                            Please check your mailbox. <br>
+                            You will be registered as an official member once your payment has been receieved !
+                        </div>
+                        <div class="modal-footer">
+                            <button class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+
+
+
+
+
+
+
+
+
+
+    <!-- Footer -->
+
+    <footer id="main-footer" class="text-center p-4 bg-success">
+        <div class="container">
+            <div class="row">
+                <div class="col" style="color: white;">
+                    <p>Copyright &copy;              <span id="year"></span> - Football Premium
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+        
+        
+
+    <!-- Script Jquery  -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+
+    <!-- Popper.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+
+    <!-- Javascript de Bootstrap -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+
+    <script>
+
+        // full year
+        
+        $('#year').text(new Date().getFullYear());
+
+    </script>
+
+</body>
+</html>
