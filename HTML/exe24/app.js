@@ -10,7 +10,7 @@ var trainingPeriod = [
         "Denderleeuw",
         "Intec",
         "Brussels",
-        "WebDeveloper",
+        "WebDevelopment",
         ]
     },
     
