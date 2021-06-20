@@ -20,8 +20,9 @@
 
 
 // Bot selection heads or tails
+
 function botSelection() {
-    let randomNumber = Math.floor(Math.random() * 2) +1;
+    let randomNumber = Math.floor(Math.random() * 2) +1; // in order to have a number between 1 and 2.
     return randomNumber;
 
 }
@@ -65,20 +66,19 @@ function checkWinner(a,b) {
     document.getElementById('side-a').classList.add('animate-flipheads')
 
 
-
     winner_msg = "You won !"
     loser_msg = "You lost :-("
     
     setTimeout(function() {
        
         res = document.getElementById('result')
-        if (a == b) {
+        if (a == b) { // = userPick == random ?
             return res.innerHTML = winner_msg
         }else {
             return res.innerHTML = loser_msg
         }
     
-        if(randomNumber == 1) {
+        if(randomNumber == 1) { // = 1 means ?
             document.getElementById('side-a').style.display = 'none'
         }else {
             document.getElementById('side-b').style.display = 'none'
