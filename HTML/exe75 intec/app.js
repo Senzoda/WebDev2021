@@ -1,6 +1,8 @@
 
-
+// selector
 const keys = Array.from(document.querySelectorAll('.key'));
+
+//  functions
 
 function playSound(e) { 
 

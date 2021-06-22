@@ -12,15 +12,14 @@ secondCardBody.addEventListener('click',removeTodo)
 
 
 // delete functions
-function deleteItem(){
-    document.querySelector('.list-group-item').remove();
-}
 
 function removeTodo(event){
+    
     event.preventDefault();
-    if(event.target.id == "clear-todos"){
-        console.log('this is all clear todos button')
-        listGroup.innerHTML=""
+    
+    if(event.target.id == "clear-todos") {
+        console.log('you have cleared all todos')
+        listGroup.innerHTML=" ";
     }
 
     if(event.target.className=="fa fa-remove"){
@@ -33,6 +32,7 @@ function removeTodo(event){
 // create & append a todo element
 
 const generator = t => document.createElement(t)
+
 const createTodo = (title) => {
     let li = generator('li')
     li.className = "list-group-item d-flex justify-content-between"
@@ -58,12 +58,8 @@ const createTodo = (title) => {
 
 function addTodo(event) {
     event.preventDefault();
-    //console.log('hello add todo')
-    // console.log(event.target.className)
     if (event.target.className == "btn btn-danger") {
-  //      console.log('add todo click click')
-      //  console.log(todoInput.value)
-     //   console.log(createTodo('this is a new todo'));
+  //      console.log('added todo')
         listGroup.appendChild(createTodo(todoInput.value))
     }
 }

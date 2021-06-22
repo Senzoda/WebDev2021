@@ -46,8 +46,7 @@ function decreaseMethod(){
         sessionStorage.setItem('counter',getNumber) // store updated number in session storage
         console.log(sessionStorage.getItem('counter'))
         output.innerHTML = `Clicked ${sessionStorage.getItem('counter')} times.`
-    }else{
-        
+    }else{ 
         AlertMessage.style.display='block'
         setTimeout(()=>AlertMessage.style.display='none',2000)
     }
